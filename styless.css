@@ -1,0 +1,88 @@
+body {
+    color: #555;
+    font: 17px Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin: 0;
+    
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+
+.header{
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+}
+.container {
+
+    margin: auto;
+    overflow: auto;
+}
+#top-header {
+    background-color:#000080;
+    color: 	#ff66ff;
+}
+#links {
+    background-color:#3333ff;
+}
+#links a {
+    color:#fafbfc;
+    text-align: right;
+}
+#links li {
+    display: inline;
+}
+#view-port {
+    color: rgb(233, 243, 233);
+    background-position: center;
+    text-align: center;
+}
+#about-me {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border: 2px #3333ff;
+    border-radius: 10px;
+    }
+#sidewall {
+    float: right;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    padding-right: 100px;
+    box-sizing: border-box;
+    }
+#projects {
+   float: left;
+   width: 90%;
+   box-sizing: border-box;
+   margin-top: 15px;
+   border: 2px rgb(7, 0, 0) solid;
+  border-radius: 10px;
+  }
+#skills {
+     float: left;
+     width: 90%;
+     box-sizing: border-box;
+     margin-top: 15px;
+      border: 2px rgb(10, 0, 0) solid;
+      border-radius: 10px;
+  }
+  #contact {
+    list-style: none;
+    float: left;
+    width: 90%;
+    box-sizing: border-box;
+    margin-top: 15px;
+     border: 1px  rgb(10, 0, 0) solid;
+     border-radius: 10px;
+ }
+
+#main-footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 800px;
+}
