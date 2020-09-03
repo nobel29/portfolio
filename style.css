@@ -1,88 +1,53 @@
-body {
-    color: #555;
-    font: 17px Arial, Helvetica, sans-serif;
-    line-height: 1.5em;
-    margin: 0;
-    
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; 
+
+h1{
+  color: #e65c00;
+  text-align: center;
 }
-
-
-.header{
+body{
+    width:75%;
+    font-family:sans-serif;
+}
+#showInfo{
+  content-align:center;
+}
+li{
+  list-style:none;
+}
+#showme{
+  margin:10%;
+}
+#individual{
+  border:2px solid #ff6600;
+  margin:2%;
+  background-color: #ff944d
+}
+#sub-individual{
+  display: inline-block;
+  background-color: #fff;
+  padding-right:10%;
+  margin-bottom:5%;
+  margin-top:5%;
+  border:1px solid #ffff00;
+}
+img{
+  margin:5%;
+  border:2px solid black;
+  margin-bottom:-12px;
+  padding:3px;
+}
+a:link{
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:visited{
+  color:yellow
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.class-one{
+    padding: 14px 25px;
     text-align: center;
-    margin: auto;
-    overflow: auto;
-}
-.container {
-
-    margin: auto;
-    overflow: auto;
-}
-#top-header {
-    background-color:#000080;
-    color: 	#ff66ff;
-}
-#links {
-    background-color:#3333ff;
-}
-#links a {
-    color:#fafbfc;
-    text-align: right;
-}
-#links li {
-    display: inline;
-}
-#view-port {
-    color: rgb(233, 243, 233);
-    background-position: center;
-    text-align: center;
-}
-#about-me {
-    float: left;
-    width: 70%;
-    box-sizing: border-box;
-    margin-top: 15px;
-    border: 2px #3333ff;
-    border-radius: 10px;
-    }
-#sidewall {
-    float: right;
-    width: auto;
-    height: auto;
-    margin-top: 5px;
-    padding-right: 100px;
-    box-sizing: border-box;
-    }
-#projects {
-   float: left;
-   width: 90%;
-   box-sizing: border-box;
-   margin-top: 15px;
-   border: 2px rgb(7, 0, 0) solid;
-  border-radius: 10px;
-  }
-#skills {
-     float: left;
-     width: 90%;
-     box-sizing: border-box;
-     margin-top: 15px;
-      border: 2px rgb(10, 0, 0) solid;
-      border-radius: 10px;
-  }
-  #contact {
-    list-style: none;
-    float: left;
-    width: 90%;
-    box-sizing: border-box;
-    margin-top: 15px;
-     border: 1px  rgb(10, 0, 0) solid;
-     border-radius: 10px;
- }
-
-#main-footer {
-    text-align: center;
-    padding: 15px;
-    margin-top: 800px;
 }
